@@ -1,0 +1,24 @@
+{
+  "name": "Reading-and-Writing-CSV-and-Output-For-access-API",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Blake <wchungtw1993@gmail.com>",
+  "main": "main.js",
+  "scripts": {
+    "archive": "mkdir -p archive && rm -f archive/service-map8-analytics.zip && git archive --format zip --prefix=service-map8-analytics/ -o archive/service-map8-analytics.zip HEAD",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "csv-parse": "^4.16.3",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "googleapis": "^89.0.0",
+    "papaparse": "^5.3.1"
+  }
+}
